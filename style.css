@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background002.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .logo h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h2, h3 {
+    font-size: 2rem;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+button {
+    background-color: #28a745;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+#social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#social ul li {
+    display: inline;
+    margin: 10px;
+}
+
+#social ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
